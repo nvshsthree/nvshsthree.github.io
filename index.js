@@ -4,6 +4,7 @@ function load() {
     var allow = false;*/
 
     fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then( response => {
+        console.log(response)
         if(response.ok){
             youtube = true;
         };
@@ -37,9 +38,9 @@ function load() {
     }
 
     if(allow = true){
-        location.replace("https://nvshs.github.io/portal");
+        //location.replace("https://nvshs.github.io/portal");
     };
     if(allow == false){
-        location.replace("https://nvshs.github.io/infosite");
+        //location.replace("https://nvshs.github.io/infosite");
     };
 }
