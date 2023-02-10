@@ -1,9 +1,9 @@
 function load() {
     var youtube = false;
-    var facebook = false;
-    var allow = false;
+    /*var facebook = false;
+    var allow = false;*/
 
-    fetch('https://youtube.com/').then( response => {
+    fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then( response => {
         if(response.ok){
             youtube = true;
         };
@@ -11,19 +11,19 @@ function load() {
             youtube = false;
         };
     });
-    fetch('https://facebook.com/').then( response => {
+    /*fetch('https://facebook.com/').then( response => {
         if(response.ok){
             facebook = true;
         };
         if(!response.ok){
             facebook = false;
         };
-    });
+    });*/
 
     console.log(youtube);
-    console.log(facebook);
+    //console.log(facebook);
 
-    if(youtube == false && facebook == false){
+    /*if(youtube == false && facebook == false){
         allow = true;
     };
     if(youtube == true && facebook == false){
@@ -31,7 +31,10 @@ function load() {
     };
     if(youtube == true && facebook == true){
         allow = true;
-    };
+    };*/
+    if (youtube) {
+        allow = false   
+    }
 
     if(allow = true){
         location.replace("https://nvshs.github.io/portal");
