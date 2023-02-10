@@ -4,13 +4,11 @@ function load() {
     var allow = false;*/
 
     fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then().then( response => {
-        console.log(response.ok)
         if(response.ok){
-            youtube = true;
-        };
-        if(!response.ok){
-            youtube = false;
-        };
+            location.replace("https://nvshs.github.io/infosite");
+        } else {
+            location.replace("https://nvshs.github.io/portal");
+        }
     });
     /*fetch('https://facebook.com/').then( response => {
         if(response.ok){
@@ -21,7 +19,7 @@ function load() {
         };
     });*/
 
-    console.log(youtube);
+    //console.log(youtube);
     //console.log(facebook);
 
     /*if(youtube == false && facebook == false){
