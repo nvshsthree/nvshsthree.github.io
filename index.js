@@ -3,7 +3,7 @@ function load() {
     /*var facebook = false;
     var allow = false;*/
 
-    fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then( response => {
+    fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then().then( response => {
         console.log(response.ok)
         if(response.ok){
             youtube = true;
