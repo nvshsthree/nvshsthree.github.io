@@ -8,7 +8,7 @@ const precache = ['/portal/', '/index.js', '/index.html', '/portal/index.js', '/
 "/sound/sounds/fart.mp3",
 "/sound/sounds/finals.mp3",
 "/sound/sounds/fortnite-death.mp3",
-"/sound/sounds/goofy-agg.mp3",
+"/sound/sounds/goofy-ahh.mp3",
 "/sound/sounds/hello-there.mp3",
 "/sound/sounds/mario-jump.mp3",
 "/sound/sounds/oof.mp3",
