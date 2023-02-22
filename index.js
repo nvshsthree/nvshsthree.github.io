@@ -6,7 +6,7 @@ function load() {
 		let registration;
 			navigator.serviceWorker.register("sw.js").then(function(finalworker) {
 				console.log("registerd")
-				setTimeout(doneswstuff, 30000)
+				setTimeout(doneswstuff, 5000)
 			})
 	} else {
 		doneswstuff()
