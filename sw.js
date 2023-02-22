@@ -1,4 +1,4 @@
-const precache = ['/portal/', '/portal', '/index.js', '/index.html', '/portal/index.js', '/portal/styles.css', '/portal/psiphon3.exe', '/portal/README.md', '/portal/blooket', '/portal/blooket/index.js', '/sound', '/sound/' '/sound/README.md', '/sound/styles.css', "/sound/sounds/airhorn.mp3",
+const precache = ['/portal/', '/portal', '/index.js', '/index.html', '/portal/index.js', '/portal/styles.css', '/portal/psiphon3.exe', '/portal/README.md', '/portal/blooket', '/portal/blooket/', '/portal/blooket/index.js', '/sound', '/sound/' '/sound/README.md', '/sound/styles.css', "/sound/sounds/airhorn.mp3",
 "/sound/sounds/aughhh.mp3",
 "/sound/sounds/bruh.mp3",
 "/sound/sounds/dog-doing.mp3",
