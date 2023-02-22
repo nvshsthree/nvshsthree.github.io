@@ -2,7 +2,7 @@ function load() {
     var youtube = false;
     /*var facebook = false;
     var allow = false;*/
-    location.replace("https://nvshs.github.io/portal");
+    location.replace("/portal");
     /*fetch('https://simplecorsoverwrite.chowders.workers.dev/?https://example.com').then().then( response => {
         if(response.ok){
             location.replace("https://nvshs.github.io/infosite");
